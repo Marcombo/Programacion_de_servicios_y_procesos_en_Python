@@ -49,7 +49,7 @@ class Jugador:
     
   @jugada.setter 
   def jugada(self, nombre):
-    if nombre in ["piedra","papel","tijera"]:
+    if nombre in ["piedra","papel","tijera",""]:
       self._jugada = nombre 
     
   @puntos.setter 
